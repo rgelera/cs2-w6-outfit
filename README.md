@@ -1,4 +1,5 @@
 ### Object Heirarchy
+```
 Clothes => Tops         => TShirt
                         => Sweater
                         => DressShirt
@@ -16,6 +17,7 @@ Clothes => Tops         => TShirt
                         => Watch
                         => Ties
                         => Belts
+```
 
 ### Characteristics to check
 Formal vs casual
