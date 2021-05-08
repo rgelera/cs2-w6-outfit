@@ -4,6 +4,8 @@ public class WinterJacket extends Outerwear {
   }
 
   public boolean isFormal() { return false; }
+  public boolean isSummerWear() { return false; }
+  public boolean isWinterWear() { return true; }
   public boolean isGoodWithEarrings() { return false; }
 
   public String toString() {

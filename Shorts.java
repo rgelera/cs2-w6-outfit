@@ -4,6 +4,8 @@ public class Shorts extends Pants {
   }
 
   public boolean isFormal() { return false; }
+  public boolean isSummerWear() { return true; }
+  public boolean isWinterWear() { return false; }
   public boolean isGoodWithEarrings() { return false; }
 
   public String toString() {

@@ -4,6 +4,8 @@ public class Peacoat extends Outerwear {
   }
 
   public boolean isFormal() { return true; }
+  public boolean isSummerWear() { return false; }
+  public boolean isWinterWear() { return true; }
   public boolean isGoodWithEarrings() { return true; }
 
   public String toString() {

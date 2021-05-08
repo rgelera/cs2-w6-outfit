@@ -38,19 +38,39 @@ public class OutfitGenerator {
     return true;
   }
 
-  public boolean shirtGoesWithDressShoes() {
+  public boolean isGoodWithDressShoes() {
+    boolean result = true;
     if (outfit.get(2) instanceof DressShoes) {
-      return outfit.get(0).isGoodWithDressShoes();
+      for (Clothes c : outfit) {
+        result = result && c.isGoodWithDressShoes();
+      }
     }
-    return true; // no dress shoes so doesn't matter
+    return result; // no dress shoes so doesn't matter
   }
+
+  public boolean contradictingWeather() {
+    boolean summer = false;
+    boolean winter = false;
+    for (Clothes c : outfit) {
+      summer = summer || c.isSummerWear();
+      winter = winter || c.isWinterWear();
+    }
+    // if both true, contradicting clothing
+    if (summer && winter) {
+      return false;
+    } else {
+      return true;
+    }
+  }
+
   public boolean validateOutfit() {
     System.out.println("--- Validating outfit ---");
     if (outfit.isEmpty()) {
       return false;
     }
     boolean validated = isNotPlain() 
-      && shirtGoesWithDressShoes();
+      && isGoodWithDressShoes()
+      && contradictingWeather();
     
     return validated;
   }

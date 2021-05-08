@@ -51,11 +51,13 @@ public class TestOutfits {
     Clothes blueWinterCoat = new WinterJacket("blue");
     Clothes greenSpringJacket = new SpringCoat("green");
     Clothes greyPeacoat = new Peacoat("grey");
+    Clothes blackPeacoat = new Peacoat("black");
 
     ArrayList<Clothes> outerwear = new ArrayList<Clothes>();
     outerwear.add(blueWinterCoat);
     outerwear.add(greenSpringJacket);
     outerwear.add(greyPeacoat);
+    outerwear.add(blackPeacoat);
 
     // Accessories
     Clothes earrings = new Earrings("gold");

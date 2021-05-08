@@ -4,6 +4,8 @@ public class DressShoes extends Shoes {
   }
 
   public boolean isFormal() { return true; }
+  public boolean isSummerWear() { return false; }
+  public boolean isWinterWear() { return false; }
   public boolean isGoodWithEarrings() { return true; }
 
   public String toString() {

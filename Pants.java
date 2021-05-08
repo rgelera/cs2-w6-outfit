@@ -4,5 +4,7 @@ abstract class Pants extends Clothes {
   }
 
   abstract boolean isFormal();
+  abstract boolean isSummerWear();
+  abstract boolean isWinterWear();
   abstract boolean isGoodWithEarrings();
 }

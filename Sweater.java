@@ -4,6 +4,8 @@ public class Sweater extends Shirts {
   }
 
   public boolean isFormal() { return false; }
+  public boolean isSummerWear() { return false; }
+  public boolean isWinterWear() { return true; }
   public boolean isGoodWithEarrings() { return true; }
 
   public String toString() {

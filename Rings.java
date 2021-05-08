@@ -4,6 +4,8 @@ public class Rings extends Accessories {
   }
 
   public boolean isFormal() { return false; }
+  public boolean isSummerWear() { return false; }
+  public boolean isWinterWear() { return false; }
   public boolean isGoodWithEarrings() { return true; }
 
   public String toString() {
