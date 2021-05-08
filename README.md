@@ -20,9 +20,9 @@ Clothes => Tops         => TShirt
 ```
 
 ### Characteristics to check
-Formal vs casual
-Seasonal wear
-Plain vs colourful
+- Formal vs casual
+- Seasonal wear
+- Plain vs colourful
 
 ### Rules
 - The shirt, pants, and shoes should not all be plain
