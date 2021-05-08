@@ -1,3 +1,5 @@
+## WIP - still implementing more rules
+
 ### Object Heirarchy
 ```
 Clothes => Tops         => TShirt
