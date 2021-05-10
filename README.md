@@ -20,6 +20,7 @@ Clothes => Tops         => TShirt
                         => Ties
                         => Belts
 ```
+I chose to have specific types of clothing (TShirt, sweater, etc) to be subclasses as I wanted to create boolean methods to specify traits for each type. 
 
 ### Characteristics to check
 - Formal vs casual
